@@ -2,15 +2,15 @@
   <img src="images/logo.jpg" alt="Logo XiQuizz" width="120">
 </p>
 
-<h1 align="center">XiQuizz</h1>
+<h1 align="center">Photobooth</h1>
 
 <p align="center">
-  Kuis interaktif yang menampilkan skor dan peringkat peserta, soal demi soal.<br>
-  <b>Setiap jawaban menggeser posisimu.</b>
+  Ambil foto dari kamera atau galeri, atur tiap foto, pilih frame yang lucu, lalu unduh sebagai strip, animasi, atau live foto.<br>
+  <b>Mulai memotret</b>
 </p>
 
 <p align="center">
-  <a href="https://www.xiquizz.my.id"><b>www.xiquizz.my.id</b></a>
+  <a href="https://www.waktubersama.my.id"><b>www.waktubersama.my.id</b></a>
 </p>
 
 ---
@@ -19,7 +19,7 @@
 
 ![Beranda Photobooth](images/beranda.png)
 
-| Masuk | Daftar |
+| connect | library frame |
 |---|---|
 | ![Halaman connect](images/connect.png) | ![Halaman library frame](images/frame.png) |
 
@@ -82,4 +82,3 @@ Ruang tunggu di layar guru bisa diganti temanya. Tiap lobi punya desain avatar, 
 ## Link
 
 [www.xiquizz.my.id](https://www.xiquizz.my.id)
-# waktubersama.my.id
