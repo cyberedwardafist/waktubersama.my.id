@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="images/logo.jpg" alt="Logo XiQuizz" width="120">
+  <img src="images/logo.jpg" alt="Logo Waktu Bersama" width="120">
 </p>
 
-<h1 align="center">Photobooth</h1>
+<h1 align="center">Waktu Bersama</h1>
 
 <p align="center">
-  Ambil foto dari kamera atau galeri, atur tiap foto, pilih frame yang lucu, lalu unduh sebagai strip, animasi, atau live foto.<br>
-  <b>Mulai memotret</b>
+  Ruang virtual untuk membuat jarak terasa dekat. Berfoto dalam satu frame lewat photobooth real-time, main game berdua atau bareng-bareng, dan ciptakan momen seru dari mana saja.<br>
+  <b>Mulai kebersamaan</b>
 </p>
 
 <p align="center">
@@ -17,68 +17,49 @@
 
 ## Tampilan
 
-![Beranda Photobooth](images/beranda.png)
+![Beranda Waktu Bersama](images/beranda.png)
 
-| connect | library frame |
+| Connect Photobooth | Library Frame |
 |---|---|
 | ![Halaman connect](images/connect.png) | ![Halaman library frame](images/frame.png) |
 
 ## Tentang proyek
 
-XiQuizz membuat kuis di kelas terasa seperti pertandingan. Guru membuat kuis, membagikan PIN atau QR, dan siswa bergabung dari ponsel mereka. Papan peringkat berubah setiap soal, jadi posisi siswa bisa naik atau turun sampai soal terakhir.
+**Waktu Bersama** hadir untuk menjembatani jarak bagi pasangan LDR, keluarga, sahabat, maupun siapa saja yang ingin menghabiskan waktu berkualitas secara daring. Bukan sekadar panggilan video biasa, platform ini menggabungkan keseruan **Photobooth interaktif**—yang memungkinkan dua orang atau lebih berfoto di dalam satu bingkai yang sama secara langsung—dengan berbagai **mini-game santai** untuk dinikmati bersama tanpa terasa terpisah jarak.
 
-## Alur kuis
+## Alur penggunaan
 
-1. Guru membuat kuis dan menekan **Buat PIN dan QR**
-2. Layar guru menampilkan QR dan ruang tunggu
-3. Siswa scan QR atau mengetik PIN, lalu masuk dengan User ID dan kata sandi
-4. Siswa muncul satu per satu di ruang tunggu
-5. Guru menekan **Mulai kuis**, soal berjalan, peringkat bergerak
-6. Di akhir, ada papan peringkat akhir dan analisis per soal
+1. Pengguna membuka aplikasi dan memilih aktivitas (**Photobooth** atau **Mini-Game**)
+2. Buat ruang (*room*) baru untuk mendapatkan **Kode Room / Link Undangan**
+3. Bagikan kode atau tautan tersebut kepada pasangan, teman, atau keluarga
+4. Setelah terhubung di dalam satu ruang, pengguna dapat langsung berpose bersama di kamera atau mulai bermain
+5. Atur tata letak foto, pilih desain frame, dan tambahkan filter sesuai selera
+6. Unduh hasil foto bersama dalam berbagai format untuk disimpan atau dibagikan ke media sosial
 
-## Fitur
+## Fitur utama
 
-### Guru
-- Membuat kuis, menyimpannya di library, dan mengelola kelas
-- Dua mode timer: waktu per soal, atau waktu seluruh kuis
-- Tampilan proyektor untuk kuis yang sedang berjalan: soal, kunci jawaban, sebaran pilihan siswa, dan leaderboard
-- Leaderboard sementara di antara soal, dan leaderboard live untuk mode waktu seluruh kuis
-- Analisis hasil per soal
-- Memilih tampilan ruang tunggu sendiri dari library lobi
-- Toko untuk membeli tipe soal dan lobi tambahan dalam satu keranjang dan satu pembayaran
+### Photobooth & Mode Connect
+- **Mode Connect (Foto Jarak Jauh):** Menggabungkan tampilan kamera dari perangkat yang berbeda ke dalam satu bingkai foto secara *real-time*
+- **Mode Solo & Galeri:** Tetap bisa digunakan sendiri dengan mengambil foto langsung dari kamera maupun mengunggah foto dari galeri perangkat
+- **Library Frame:** Koleksi bingkai lucu, estetik, dan tematik yang beragam untuk mempercantik hasil foto
+- **Kustomisasi Foto:** Mengatur posisi tiap pose, memilih tata letak (*grid* / *photo strip*), dan menyesuaikan warna latar
+- **Multi-Format Ekspor:** Unduh hasil akhir sebagai **Photo Strip** (PNG/JPG), **Animasi** (GIF), maupun **Live Foto** (Video pendek)
 
-### Siswa
-- Bergabung lewat scan QR atau PIN
-- Poin lebih besar untuk jawaban yang lebih cepat
-- Melihat benar atau salah dan poinnya setelah setiap soal
-- Leaderboard per kelas dan per mata pelajaran dengan poin akumulasi
-- Profil dengan foto yang bisa dipotong dan ganti kata sandi dengan verifikasi OTP
+### Ruang Bermain (Mini-Games)
+- **Main Bareng Real-Time:** Pilihan permainan ringan dan interaktif yang dirancang untuk dimainkan berdua atau dalam grup kecil
+- **Sesi Privat & Instan:** Cukup masuk menggunakan kode ruang tanpa proses pendaftaran yang rumit untuk langsung mulai bersenang-senang
 
-### Admin
-- Mengelola akun guru dan penyimpanan tiap guru
-- Library tipe soal: pasang, perbarui, kembalikan ke versi sebelumnya, aktifkan atau nonaktifkan
-- Library lobi, termasuk menetapkan lobi bawaan
-- Keuangan dan transaksi
-- Pengelola isi landing page
-
-## Tipe soal
-
-Pilihan ganda, pilihan ganda kompleks, benar atau salah, isian singkat, menjodohkan, dan mengurutkan.
-
-Setiap tipe soal berdiri sendiri, jadi memperbarui satu tipe tidak mengganggu tipe lain. Tipe baru bisa ditambahkan tanpa mengubah aplikasi.
-
-## Lobi
-
-Ruang tunggu di layar guru bisa diganti temanya. Tiap lobi punya desain avatar, tampilan peringkat 1 sampai 3 dan runner up, animasi masuk, serta tiga gaya keluar: asap, disedot jadi pixel, dan batu nisan.
+### Pengalaman Pengguna
+- **Akses Lintas Perangkat:** Ringan dan responsif saat diakses melalui browser ponsel maupun desktop
+- **Pemrosesan Cepat:** Pengambilan gambar dan penyusunan frame berjalan mulus dengan antarmuka yang bersih dan intuitif
 
 ## Teknologi
 
-- HTML, CSS, dan JavaScript tanpa framework frontend
-- Backend serverless dengan Node.js
-- PostgreSQL
-- Ekspor hasil ke Excel
-- Tes end-to-end, keamanan, dan antarmuka
+- **Frontend:** HTML, CSS, dan JavaScript (Vanilla / Tanpa framework berat) dengan HTML5 Canvas untuk pengolahan gambar dan animasi
+- **Real-Time Communication:** WebRTC & WebSocket untuk sinkronisasi kamera dan sesi bermain secara langsung
+- **Backend:** Node.js (Serverless)
+- **Database & Penyimpanan:** PostgreSQL
 
 ## Link
 
-[www.xiquizz.my.id](https://www.xiquizz.my.id)
+[www.waktubersama.my.id](https://www.waktubersama.my.id)
